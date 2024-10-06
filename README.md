@@ -1,17 +1,16 @@
 # Procedural Planet Generator
-This is intended as a sample, learning project following the series [Procedural Planet Generationo](https://www.youtube.com/playlist?list=PL43PN07AM4J_7ZkZAUotpfijJSoibrvbr) on Youtube
+This is intended as a sample, learning project following the series [Procedural Planet Generation](https://www.youtube.com/playlist?list=PL43PN07AM4J_7ZkZAUotpfijJSoibrvbr) on Youtube
 
-Each commit should follow one episode of the series.
+## Fork
+This fork was an effort to refactor the code in the original repo for use in Godot 4. The excellent tutorial series and original code were made by Ombarus.
+The refactors follows the original code as closely as possible.
 
 ## WARNING
 This code is provided as-is.
 
 ## Run
-Run the project in Godot 3.3.2 official release
-* Main.tscn contains the Camera setup with a reference to the planet generator
-* Planet.tscn contains the code for generating the planet
-* If you plan to use the result inside a project I strongly suggest removing the setget and tool keywords so as to not regenerate the mesh while in a game
+Run the project in Godot 4.3 official release.
+Main scene allows quick rendering and previewing of planets.
 
 ## License
-
 Use at your own risk. Give attribution if you can. Do whatever you want with the code. No guarantees.

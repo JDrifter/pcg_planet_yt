@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://kd25l6cvhdx1"]
+
+[ext_resource type="PackedScene" uid="uid://c40w7gkxhdh0j" path="res://planet.tscn" id="1_14ovx"]
+[ext_resource type="Script" path="res://main_test.gd" id="1_vamv1"]
+
+[node name="mainTest" type="Node3D"]
+script = ExtResource("1_vamv1")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.906831, 0.421495, 0, -0.421495, 0.906831, 0, 19.854, 31.5116)
+
+[node name="Planet" parent="." instance=ExtResource("1_14ovx")]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 76.6927, 0)
